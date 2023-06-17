@@ -93,6 +93,7 @@
   width: 507px;
   margin-bottom: 15px;
 }
+
 .products-description {
   font-size: 16px;
   line-height: 22px;
@@ -100,17 +101,113 @@
   color: #101010;
   width: 452px;
 }
+
 .products-container {
-    display:flex;
-    justify-content: space-between;
-    
-    
+  display: flex;
+  justify-content: space-between;
+
+
 }
- .products {
-    padding-top: 76px;
-    padding-bottom: 75px;
-    background-color: #E7DFD8;
-    
- }
 
+.products {
+  padding-top: 76px;
+  padding-bottom: 75px;
+  background-color: #E7DFD8;
 
+}
+
+.cards {
+  background-color: #E7DFD8;
+}
+
+.cards-item {
+  display: flex;
+  gap: 116px;
+  align-items: flex-start;
+  padding-bottom: 81px;
+  padding-top: 124px;
+}
+
+.cards-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cards-photo {
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.cards-img {
+  width: 518px;
+  height: 500px;
+}
+
+.cards-flex {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding-top: 90px;
+}
+
+.cards-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.cards-number {
+  font-size: 38px;
+  line-height: 1.58;
+  text-align: center;
+  color: #101010;
+  margin-right: 12px;
+  border-radius: 100px;
+  display: flex;
+  width: 74px;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-item:nth-child(1) .cards-number {
+  background-color: #B99FEA;
+}
+
+.cards-item:nth-child(2) .cards-number {
+  background-color: #EBA789;
+}
+
+.cards-item:nth-child(3) .cards-number {
+  background-color: #96DBC6;
+}
+
+.cards-paragraph {
+  font-size: 19px;
+  line-height: 1.89;
+  color: #101010;
+}
+
+.cards-title {
+  font-size: 35px;
+  line-height: 1.31;
+  letter-spacing: 1px;
+  color: #101010;
+  margin-bottom: 11px;
+
+}
+
+.cards-text {
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #101010;
+  margin-bottom: 48px;
+}
+
+.cards-description {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #101010;
+}
